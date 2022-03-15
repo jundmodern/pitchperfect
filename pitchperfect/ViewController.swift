@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func stopRecording(_ sender: Any) {
+        print("stop recording button pressed")
+        recordingLabel.text = "Recording stopped"
+    }
+    @IBAction func recordAudio(_ sender: Any) {
+        print("record button pressed")
+        recordingLabel.text = "Recording in progress"
+    }
+    
+    @IBOutlet weak var recordingLabel: UILabel!
 }
 
