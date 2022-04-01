@@ -65,7 +65,7 @@ class ViewController: UIViewController, AVAudioRecorderDelegate{
             let playSoundsVC = segue.destination as! playSoundsViewController
             let recordAudioURL = sender as! URL
             
-            playSoundsVC.recordAudioURL = recordAudioURL
+            playSoundsVC.recordedAudioURL = recordAudioURL
         }
             
     }

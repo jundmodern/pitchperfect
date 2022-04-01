@@ -22,18 +22,18 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="V1X-Ms-tTw">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="104"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDx-TB-fpU" userLabel="fast">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDx-TB-fpU" userLabel="slow">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="104"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="Fast"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Slow"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="76Y-tO-gAN" eventType="touchUpInside" id="vdg-PY-maO"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiV-9g-Lu9" userLabel="slow">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiV-9g-Lu9" userLabel="fast">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="104"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="Slow"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="Fast"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="76Y-tO-gAN" eventType="touchUpInside" id="qSC-yc-NHe"/>
                                                 </connections>
