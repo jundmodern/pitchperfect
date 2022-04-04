@@ -127,8 +127,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ukR-KI-X0h">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ukR-KI-X0h">
                                 <rect key="frame" x="157" y="528" width="101" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -143,8 +144,9 @@
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PV7-LI-Ia0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgs-zM-gQb">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgs-zM-gQb">
                                 <rect key="frame" x="118" y="557" width="179" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="Stop">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
@@ -156,12 +158,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="ukR-KI-X0h" firstAttribute="centerX" secondItem="rbb-G9-fmX" secondAttribute="centerX" id="0pd-iv-CF0"/>
-                            <constraint firstItem="ukR-KI-X0h" firstAttribute="top" secondItem="rbb-G9-fmX" secondAttribute="bottom" constant="8" id="AGF-qE-kjM"/>
-                            <constraint firstItem="wgs-zM-gQb" firstAttribute="top" secondItem="ukR-KI-X0h" secondAttribute="bottom" constant="8" id="i6Y-ML-olJ"/>
-                            <constraint firstItem="ukR-KI-X0h" firstAttribute="centerX" secondItem="wgs-zM-gQb" secondAttribute="centerX" id="lkV-wk-4SO"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="recordButton" destination="rbb-G9-fmX" id="LAp-ae-TY3"/>
